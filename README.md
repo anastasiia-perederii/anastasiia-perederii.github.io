@@ -1,6 +1,6 @@
 # Pokedex. Information about Pokemon
 ###
 This is an informational web page that shows detailed information about each Pokemon
-## Project Setup
+## Project opening
 ### 
-open **index.html** file in browser
+open link *https://anastasiia-perederii.github.io/*
