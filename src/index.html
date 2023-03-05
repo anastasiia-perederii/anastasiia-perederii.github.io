@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pokedex</title>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<main>
+    <h1 class="page-title">Pokedex</h1>
+
+    <div class="wrap">
+      <section class="col col-wide">
+
+        <template id="pokemon-template" style="display: none">
+          <article class="pokemon" role="banner" tabindex="1">
+            <div class="pokemon_img">
+              <img src="" alt="">
+            </div>
+            <div class="pokemon_name"></div>
+            <!-- <div class="descr_type types"></div> -->
+            <div class="pokemon__idx"></div>
+            <ul class="types">
+        
+            </ul>
+          </article>
+        </template>
+
+        <div class="pokemons-list holder"></div>
+        <button id="load-more" class="btn">Load more</button>
+      </section>
+
+      <section class="col col-info">
+        <div id="details" class="descr" hidden>
+          <div class="descr_holder">
+            <div class="descr_img">
+              <img src="" alt="">
+            </div>
+            <div class="descr_name"></div>
+            <table class="descr_table">
+              <tr>
+                <td>Type</td>
+                <td><ul class="descr_type types">
+
+                </ul></td>
+              </tr>
+              <tr>
+                <td>Attack</td>
+                <td><span class="descr_attack"></span></td>
+              </tr>
+              <tr>
+                <td>Defense</td>
+                <td><span class="descr_defense"></span></td>
+              </tr>
+              <tr>
+                <td>HP</td>
+                <td><span class="descr_hp"></span></td>
+              </tr>
+              <tr>
+                <td>SP Attack</td>
+                <td><span class="descr_sp-attack"></span></td>
+              </tr>
+              <tr>
+                <td>SP Defense</td>
+                <td><span class="descr_sp-defense"></span></td>
+              </tr>
+              <tr>
+                <td>Speed</td>
+                <td><span class="descr_speed"></span></td>
+              </tr>
+              <tr>
+                <td>Weight</td>
+                <td><span class="descr_weight"></span></td>
+              </tr>
+              <tr>
+                <td>Total moves</td>
+                <td><span class="descr_total-moves"></span></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
